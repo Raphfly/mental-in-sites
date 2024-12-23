@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transformez votre stress en force avec Mental-In. Coaching mental et gestion du stress à Lille pour particuliers et professionnels.">
+    <meta name="keywords" content="Coaching mental, Gestion du stress, Coaching sportif, Lille, Bien-être">
+    <meta name="author" content="Mental-In">
+    <title>Mental-In | Coaching mental et gestion du stress</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #D3D3D3;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #333;
+            font-weight: bold;
+        }
+        .hero {
+            background: #FFDAB9 url('your-hero-image.jpg') no-repeat center center/cover;
+            color: #333;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+            font-style: italic;
+            margin: 20px 0;
+        }
+        .cta {
+            background: #F4A460;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            background: #F5F5DC;
+            padding: 50px 20px;
+        }
+        .service {
+            text-align: center;
+            max-width: 300px;
+        }
+        .service h3 {
+            font-size: 20px;
+        }
+        .service p {
+            font-size: 16px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mental-In</h1>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#services">Services</a>
+            <a href="#about">À propos</a>
+            <a href="#testimonials">Témoignages</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Transformez votre stress en force</h1>
+        <p>Coaching mental et gestion du stress à Lille pour particuliers et professionnels.</p>
+        <button class="cta">Réservez votre séance</button>
+    </section>
+
+    <section class="services" id="services">
+        <div class="service">
+            <h3>Coaching mental personnalisé</h3>
+            <p>Atteignez vos objectifs personnels et professionnels grâce à un accompagnement adapté.</p>
+            <a href="#">Découvrir ce service →</a>
+        </div>
+        <div class="service">
+            <h3>Gestion du stress</h3>
+            <p>Apprenez des techniques éprouvées pour retrouver sérénité et confiance en vous.</p>
+            <a href="#">En savoir plus →</a>
+        </div>
+        <div class="service">
+            <h3>Coaching pour sportifs</h3>
+            <p>Optimisez vos performances en travaillant sur votre mental.</p>
+            <a href="#">Voir les détails →</a>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h4>Mental-In</h4>
+            <p>Transformez votre mental, transformez votre vie.</p>
+        </div>
+        <div>
+            <nav>
+                <a href="#">Accueil</a> |
+                <a href="#">Services</a> |
+                <a href="#">Blog</a> |
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+        <div>
+            <p>Téléphone : 06 XX XX XX XX</p>
+            <p>Email : contact@mental-in.com</p>
+        </div>
+    </footer>
+</body>
+</html>
